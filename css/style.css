@@ -199,12 +199,13 @@
     width: 270px;
     height: 270px;
     border-radius: 50%;
-    background: conic-gradient(
-        rgba(235, 4, 4, 0.815) 0deg 140deg,
-        rgb(241, 178, 4) 140deg 160deg,
+    background: conic-gradient(from 20deg,
+        rgba(235, 4, 4, 0.815) 20deg 130deg,
+        rgb(241, 178, 4) 130deg 160deg,
         rgba(0, 128, 0, 0.89) 160deg 250deg,
-        rgba(0, 0, 255, 0.719) 250deg 360deg
+        rgba(0, 0, 255, 0.719) 250deg 20deg
       );
+    border: 1px solid rgb(0, 0, 0);
 }
 
 .exp .exp__hole {
@@ -215,6 +216,7 @@
     width: 50%;
     height: 50%;
     border-radius: 50%;
+    border: 1px solid rgb(0, 0, 0);
 }
 .exp .exp__foot {
     display: flex;
